@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/productlandingpage.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+          integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>Product Landing Page</title>
+</head>
+<body>
+    <div id="page-container">
+        <header id="header">
+            <div class="logo">
+                <img id="header-img"
+                     src="img/icarlogo.jpg"
+                     alt="Logo iCar company">
+            </div>
+            <nav id="nav-bar">
+                <a href="#about" class="nav-link" title="">About</a>
+                <a href="#pricing" class="nav-link" title="">Pricing</a>
+                <a href="#subscribe" class="nav-link" title="">Subscribe</a>
+            </nav>
+        </header>
+
+        <div class="section-container">
+            <section id="about">
+                <div class="row">
+                    <div class="wide-column">
+                        <p class="section-title">About renting an electrical iCar</p>
+                        <p class="section-content">Rent an electric autonomous car and say goodbye to problems related
+                            with your own car. You only need choose one of the plans that we offer and you will be able
+                            to move around the city without worrying about things like:</p>
+
+                        <ul>
+                            <li class=""><i class='fas fa-map-marked-alt service-feature'></i>Find the perfect route</li>
+                            <li><i class='fas fa-charging-station service-feature'></i>Charge your car</li>
+                            <li><i class='fas fa-car-side service-feature'></i>Look for a parking place</li>
+                        </ul>
+
+                    </div>
+                    <div class="narrow-column">
+                        <iframe id="video" width="420" height="315"
+                                src="https://www.youtube.com/embed/SjCqE7aYUyE?controls=0&showinfo=0&rel=0&autoplay=0&loop=1&playlist=W0LHTWG-UmQ"
+                                frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </section>
+            <section id="pricing">
+                <div class="row">
+                    <div class="wide-column">
+                        <div class="column">
+                            <div class="card">
+                                <p class="minutes">100 minutes</p>
+                                <p class="price">25$</p>
+                                <input id="plan100min" value="Select"></input>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="card">
+                                <p class="minutes">250 minutes</p>
+                                <p class="price">50$</p>
+                                <input id="plan250min" type="submit" value="Select"></input>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="card">
+                                <p class="minutes">500 minutes</p>
+                                <p class="price">90$</p>
+                                <input id="plan500min" type="submit" value="Select"></input>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="narrow-column">
+                        <p class="section-title">Pricing plan</p>
+                        <p class="section-content">Choose one of our plans and begin to drive</p>
+                    </div>
+                </div>
+            </section>
+            <section id="subscribe">
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <div class="far fa-paper-plane"></div>
+                    <p>Sign up for our newsletter to get product email news.</p>
+                    <label id="email-label" for="email"><i class="fa fa-envelope"></i> *Email: </label>
+                    <input id="email" type="email" name="email" placeholder="Enter your email address" required>
+                    <input id="submit" type="submit" value="Submit"></input>
+                </form>
+            </section>
+        </div>
+
+        <footer>
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+
+            <span id="poweredby">Powered by Sergio Barbosa</span>
+        </footer>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
