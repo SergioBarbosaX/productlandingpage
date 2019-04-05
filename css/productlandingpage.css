@@ -55,6 +55,10 @@ footer {
     height: 35px;
     text-align: center;
 }
+#form
+{
+    width: 100%;
+}
 #submit {
     background-color: mediumseagreen;
     padding: 5px;
